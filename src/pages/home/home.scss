@@ -1,9 +1,10 @@
+@import '../../utils/scss-variable/variables.scss';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Abel", sans-serif;
+    font-family: $font-pages;
     font-size: 10px;
     scroll-behavior: smooth;
   }
@@ -38,7 +39,7 @@
   .text-home{
     color: #fff;
     font-size: 35px;
-    font-family: "Open Sans", sans-serif;
+    font-family: $font-pages;
     font-weight: 800;
     position: relative;
     left: -30%;
