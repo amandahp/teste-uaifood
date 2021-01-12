@@ -1,0 +1,28 @@
+.grid-container-header {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 0.3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "logo-red side-bar-search";
+    width: 100%;
+    margin-top: 1%;
+  }
+  
+  .logo-red { grid-area: logo-red; 
+    width: 30%;
+    position: relative;
+    left: 10%;
+
+}
+  
+  .side-bar-search { grid-area: side-bar-search; 
+    width: 80%;
+    margin-left: -10%;
+
+}
+
+.image-logo-red{
+    width: 100px;
+    margin-top: 5px;
+}
