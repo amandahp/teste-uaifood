@@ -1,8 +1,7 @@
 export const initialState = {
     loading:false,
     error:false,
-    citylist:[]
-
+    citylist:[],
 }
 
 export default function Reducer(state=initialState, action){
@@ -10,10 +9,11 @@ export default function Reducer(state=initialState, action){
         case 'TRIGGER_GET_ZOMATOCITYNAME':
             return {...state, loading:true}
         case 'TRIGGER_GET_ZOMATOCITYNAME_SUCCESS':
-            return {...state, loading:false, citylist:action.cityname}
+            return {...state, loading:false, citylist:action.listOfCities}
         case 'TRIGGER_GET_ZOMATOCITYNAME_ERROR':
-            return {...state, loading:false, erro: action.error}
-
+            return {...state, loading:false, error: action.error}
+        default:
+            return state
     }
-
 }
+

@@ -8,7 +8,7 @@ const Header = ({banana}) => {
     return(
         <div className="grid-container-header">
           <div className="logo-red">
-              <img className='image-logo-red'src={LogoRed}></img>
+              <img alt='logo-red' className='image-logo-red'src={LogoRed}></img>
           </div>
           <div class="side-bar-search">
               <SearchBar  />
