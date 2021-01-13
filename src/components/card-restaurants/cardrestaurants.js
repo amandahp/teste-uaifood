@@ -9,8 +9,11 @@ const CardRestaurants = () => {
               <div className="details-restaurant">
                   <p className='name-restaurant'></p>
               </div>
-              <div className="restaurant-type">
-                  <p>Teste</p>
+              <div className="restaurant-type"> 
+                <div class="grid-container-typeandprice">
+                  <div class="price"></div>
+                  <div class="type"></div>
+                </div>TESTE
               </div>
             </div>
         </>
