@@ -55,7 +55,7 @@
   
   .data-list{
     background: $color-components-white;
-    width: 90%;
+    width: 100%;
     position: relative;
     color: $color-text-placeholder;
     font-weight: 300;
@@ -91,7 +91,6 @@
   .data-list-list{
     position: relative;
     left: -2%;
-    overflow:scroll;
     width: 90%;
     background: $color-components-white;
   } 
