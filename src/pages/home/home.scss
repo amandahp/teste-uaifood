@@ -51,3 +51,47 @@
     position: relative;
     left: -28%;
   }
+
+  
+  .data-list{
+    background: $color-components-white;
+    width: 90%;
+    position: relative;
+    color: $color-text-placeholder;
+    font-weight: 300;
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+
+  .data-list:hover{
+    background-color: $title-text-cards;
+    opacity: 90%;
+    p{
+      color: $text-cards;
+
+    }
+  }
+
+  .state-city{
+    position: relative;
+    color: $color-text-placeholder;
+    font-weight: 300;
+    font-size: 1rem;
+    left: 5%;
+    width: 90%;
+
+  }
+
+  .text-data-list{
+    position: relative;
+    font-size: 1.4rem;
+    left: 5%;
+  }
+
+  .data-list-list{
+    position: relative;
+    left: -2%;
+    overflow:scroll;
+    width: 90%;
+    background: $color-components-white;
+  } 

@@ -1,9 +1,7 @@
 
   @import '../../utils/scss-variable/variables.scss';
 
-  $color-button-search: #39b54a;
-  $color-components-white: #fff;
-  $color-text-placeholder: #767676;
+
 
 * {
     margin: 0;
@@ -39,7 +37,7 @@
       position: relative;
       color: $color-text-placeholder;
       width: 20%;
-      cursor: pointer;
+      cursor: text;
       &:focus {
         outline: none;
       }
