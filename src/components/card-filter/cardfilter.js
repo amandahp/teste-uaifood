@@ -3,8 +3,9 @@ import './cardfilter.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-regular-svg-icons'
 
-const CardFilter = () => {
+const CardFilter = ({restaurantTypeCheckbox, handleClickCheckbox}) => {
     const iconStar = <FontAwesomeIcon icon={faStar} classNameName='icon-star' />
+
 
     return(
         <>
@@ -28,15 +29,14 @@ const CardFilter = () => {
                         </form>  
                         <p><strong className='title-card'>TIPO DE COZINHA</strong></p>
                         <form className='jsonourstring-card'>
-                          <div><input type="checkbox"  value={false} /> Árabe</div>
-                          <div><input type="checkbox"  value={false} /> Brasileira</div>
-                          <div><input type="checkbox"  value={false}  /> Chinesa</div>
-                          <div><input type="checkbox"  value={false}  /> Francesa</div>
-                          <div><input type="checkbox" value={false}  /> Frutos do Mar </div>
-                          <label><input type="checkbox"  value={false}  /> Italiana</label>    
-                          <div><input type="checkbox" value={false}  /> Japonesa</div>
-                          <div><input type="checkbox"  value={false}  /> Mexicana</div>
-                          <div><input type="checkbox"  value={false}  /> Peruana</div>                 
+                          {restaurantTypeCheckbox.map((types, index) => {
+                            return (
+                              <div key={index+1}>
+                                <input onClick={() => handleClickCheckbox(types.value)} type='checkbox' value={types.value}></input>
+                                <label>{''} {types.name} </label>
+                              </div>
+                            )
+                          })}             
                         </form>
                     </div>
                 </div>

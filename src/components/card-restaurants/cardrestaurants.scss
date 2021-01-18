@@ -1,44 +1,62 @@
+@import '../../utils/scss-variable/variables.scss';
 
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1.5fr 1.1fr 0.4fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      "image"
-      "details-restaurant"
-      "restaurant-type";
-    border-style: solid;
-    box-shadow: 0px 0px 7px;
-    -webkit-box-shadow: 16px 12px 11px -9px  #484848(0,0,0,0.45);
-    -moz-box-shadow: 16px 12px 11px -9px  #484848(0,0,0,0.45);
-    box-shadow: 16px 12px 11px -9px  #484848(0,0,0,0.45);
-    border-style: solid;
-    border: 0.5px;
-    width: 100%;
-    color: #CFCFCF;
-    width: 150%;
-    height: 460%;
-  }
-  
-  .image { grid-area: image; }
-  
-  .details-restaurant { grid-area: details-restaurant; }
-  
-  .restaurant-type { grid-area: restaurant-type; }
-  
+.gridcontainer{
+  box-shadow: 0px 0px 5px;
+  box-shadow: 16px 12px 11px -9px  #484848(0,0,0,0.45); 
+  height: 32vh;
+  width: 45vh;
+}
 
-  .grid-tag {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 45px;
-    grid-template-areas:
-      "price type";
-  }
-  
-  .price { grid-area: price; }
-  
-  .type { grid-area: type; }
-  
+.image-for-the-restaurant{
+  width: 45vh;
+  height: 17vh;
+}
+
+.name-restaurant{
+  font-family: $font-pages;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333333;
+  position: relative;
+  left: 10px;
+}
+
+.address-restaurant{
+  font-family: $font-pages;
+  font-size: 10px;
+  color:$title-text-cards;
+  position: relative;
+  left: 10px;
+}
+
+.rating-stars{
+  color: $color-stars;
+  position: relative;
+  left: 10px;
+
+}
+
+.tag-price{
+  color: $color-components-white;
+  background-color: $color-button-search;
+  border: none;
+  outline: none;
+  position: relative;
+  left: 10px;
+  width: 10vh;
+  height: 3vh;
+  top: 10px;
+}
+
+.tag-type{
+  color: $text-cards;
+  background-color: rgb(206, 204, 204);
+  border: none;
+  outline: none;
+  position: relative;
+  left: 20px;
+  height: 3vh;
+  top: 10px;
+}
+

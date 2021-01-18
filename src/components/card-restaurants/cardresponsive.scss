@@ -1,0 +1,138 @@
+@import '../../utils/scss-variable/variables.scss';
+
+@media (min-width: 320px) and (max-width: 400px){
+    .gridcontainer{
+      box-shadow: 0px 0px 5px;
+      box-shadow: 16px 12px 11px -9px  #484848(0,0,0,0.45); 
+      height: 22vh;
+      width: 35vh;
+    }
+    
+    .image-for-the-restaurant{
+      width: 35vh;
+      height: 10vh;
+    }
+    .name-restaurant{
+      font-family: $font-pages;
+      font-weight: bold;
+      font-size: 10px;
+      color: #333333;
+      position: relative;
+      left: 10px;
+    }
+    
+    .address-restaurant{
+      font-family: $font-pages;
+      font-size: 5px;
+      color:$title-text-cards;
+      position: relative;
+      left: 5px;
+    }
+    
+    .rating-stars{
+      color: $color-stars;
+      position: relative;
+      left: 5px;
+    
+    }
+    
+    .tag-price{
+      color: $color-components-white;
+      background-color: $color-button-search;
+      border: none;
+      outline: none;
+      position: relative;
+      left: 10px;
+      width: 10vh;
+      height: 3vh;
+      top: 10px;
+    }
+  
+  }
+  
+  @media (min-width: 651px) and (max-width: 862px){
+    .gridcontainer{
+      box-shadow: 0px 0px 5px;
+      box-shadow: 16px 12px 11px -9px  #484848(0,0,0,0.45); 
+      height: 30vh;
+      width: 34vh;
+    }
+    
+    .image-for-the-restaurant{
+      width: 34vh;
+      height: 10vh;
+    }
+  
+    .name-restaurant{
+      font-family: $font-pages;
+      font-weight: bold;
+      font-size: 10px;
+      color: #333333;
+      position: relative;
+      left: 12px;
+    }
+    
+    .address-restaurant{
+      font-family: $font-pages;
+      font-size: 8px;
+      color:$title-text-cards;
+      position: relative;
+      left: 5px;
+    }
+    
+    .rating-stars{
+      color: $color-stars;
+      position: relative;
+      left: 5px;
+    
+    }
+    
+    .tag-price{
+      color: $color-components-white;
+      background-color: $color-button-search;
+      border: none;
+      outline: none;
+      position: relative;
+      left: 10px;
+      width: 10vh;
+      height: 3vh;
+      top: 10px;
+    }
+  
+  
+    .tag-type{
+      color: $text-cards;
+      background-color: rgb(206, 204, 204);
+      border: none;
+      outline: none;
+      position: relative;
+      left: 20px;
+      top: 10px;
+    }
+  
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1100px){
+    .gridcontainer{
+      box-shadow: 0px 0px 5px;
+      box-shadow: 16px 12px 11px -9px  #484848(0,0,0,0.45); 
+      height: 43vh;
+      width: 35vh;
+    }
+    
+    .image-for-the-restaurant{
+      width: 35vh;
+      height: 17vh;
+    }
+  
+    .tag-type{
+      color: $text-cards;
+      background-color: rgb(206, 204, 204);
+      border: none;
+      outline: none;
+      position: relative;
+      left: 20px;
+      top: 10px;
+    }
+  
+  }

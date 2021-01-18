@@ -2,8 +2,9 @@ import React from 'react'
 import SearchBar from '../search-bar/searchbar'
 import LogoRed from '../../utils/img/logo/logored/logo-red.jpg'
 import './header.scss'
+import './headerresponsive.scss'
 
-const Header = ({banana}) => {
+const Header = ({}) => {
 
     return(
         <div className="grid-container-header">

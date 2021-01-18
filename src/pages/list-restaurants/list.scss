@@ -1,51 +1,62 @@
+@import "./listresponsive.scss";
+
 .grid-container-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      "header-page-restaurants header-page-restaurants"
-      "card-rating-page page-card-restaurants";
-    width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "header-page-restaurants header-page-restaurants"
+    "card-rating-page page-card-restaurants";
+  width: 100%;
 }
-  
-  .header-page-restaurants { grid-area: header-page-restaurants; 
-    height: 25%;
-    box-shadow: 0px 0px 5px;
-    -webkit-box-shadow: 16px 12px 11px -9px  #484848(0,0,0,0.45);
-    -moz-box-shadow: 16px 12px 11px -9px  #484848(0,0,0,0.45);
-    box-shadow: 16px 12px 11px -9px  #484848(0,0,0,0.45);    
+
+.header-page-restaurants {
+  width: 100%;
+  position: fixed;
+  grid-area: header-page-restaurants; 
+  height: 13vh;
+  box-shadow: 0px 0px 5px;
+  -webkit-box-shadow: 16px 12px 11px -9px  #484848(0,0,0,0.45);
+  -moz-box-shadow: 16px 12px 11px -9px  #484848(0,0,0,0.45);
+  box-shadow: 16px 12px 11px -9px  #484848(0,0,0,0.45);
+  background-color: #ffffff;
+  opacity: 100%;
+  vertical-align: top;
+  top: 0;
+  left: 0;
+  padding: 0;
+  z-index: 10;
 }
-  
-  .card-rating-page { grid-area: card-rating-page; 
-    width: 30%;
-    position: relative;
-    margin-top: -33%;
-    left: 5%;
+
+.card-rating-page { 
+  grid-area: card-rating-page; 
+  width: 30vh;
+  position: absolute;
+  left: 5%;
+  margin-top: 20vh;
+  margin-right: 20vh;
+
 }
-  
-  .page-card-restaurants { grid-area: page-card-restaurants; 
-    grid-area: page-card-restaurants;
-    width: 150%;
-    position: relative;
-    left: -60%;
-    margin-top: -33%;
+
+.page-card-restaurants { 
+  grid-area: page-card-restaurants;
+  position: relative;
+  left: -50vh;
+  margin-top: 10vh;
 
 }
 
 
 .container-div-card{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-row-gap: 1.5em;
-    grid-column-gap: 1em;
+  display: grid;
+  grid-template-columns: repeat(3, 0.2fr);
+  grid-row-gap: 3em;
+  grid-column-gap: 4em;
+  position: absolute;
 }
 
-.container-card-page{
-    box-shadow: 0px 0px 5px;
-    -webkit-box-shadow: 16px 12px 11px -9px  #484848(0,0,0,0.45);
-    -moz-box-shadow: 16px 12px 11px -9px  #484848(0,0,0,0.45);
-    box-shadow: 16px 12px 11px -9px  #484848(0,0,0,0.45);   
 
-}
+
+
+

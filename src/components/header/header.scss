@@ -9,14 +9,16 @@
     margin-top: 1%;
   }
   
-  .logo-red { grid-area: logo-red; 
+  .logo-red { 
+    grid-area: logo-red; 
     width: 30%;
     position: relative;
     left: 10%;
 
 }
   
-  .side-bar-search { grid-area: side-bar-search; 
+  .side-bar-search { 
+    grid-area: side-bar-search; 
     width: 80%;
     margin-left: -10%;
 
@@ -26,3 +28,7 @@
     width: 100px;
     margin-top: 5px;
 }
+
+
+
+ 

@@ -1,4 +1,5 @@
 @import '../../utils/scss-variable/variables.scss';
+@import './homeresponsive.scss';
 
 * {
     margin: 0;
@@ -15,7 +16,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    backdrop-filter: opacity(80%);
   }
   .Container {
     width: 100%;
@@ -31,7 +31,7 @@
   }
 
   .logo-white{
-    width: 60%;
+    width: 20vh;
     position: relative;
     left: 140%;
   }
@@ -94,3 +94,5 @@
     width: 90%;
     background: $color-components-white;
   } 
+
+

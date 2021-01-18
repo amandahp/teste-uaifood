@@ -1,0 +1,161 @@
+@media (min-width: 220px) and (max-width: 319px){
+    .container-div-card{
+      display: grid;
+      grid-template-columns: repeat(1, 0.2fr);
+      grid-row-gap: 3em;
+      grid-column-gap: 4em;
+      position: absolute;
+    }
+  
+  }
+  
+  @media (min-width: 320px) and (max-width: 400px){
+    .container-div-card{
+      display: grid;
+      grid-template-columns: repeat(1, 0.2fr);
+      grid-row-gap: 3em;
+      grid-column-gap: 4em;
+      position: absolute;
+    }
+    .card-rating-page { 
+      grid-area: card-rating-page; 
+      width: 30vh;
+      position: relative;
+      left: 5%;
+      margin-right: 20vh;
+      top: 0;
+      left: 0;
+      padding: 0;
+      width: 70px;
+      height: 100%;
+      margin-top: -45vh;
+  
+    
+    }
+    .page-card-restaurants { 
+      grid-area: page-card-restaurants;
+      position: relative;
+      left: -13vh;
+      margin-top: -45vh;
+  
+    
+    }
+  
+  
+  }
+  @media (min-width: 401px) and (max-width: 650px){
+    .container-div-card{
+      display: grid;
+      grid-template-columns: repeat(1, 0.2fr);
+      grid-row-gap: 3em;
+      grid-column-gap: 4em;
+      position: absolute;
+    }
+    .card-rating-page { 
+      grid-area: card-rating-page; 
+      position: relative;
+      left: 5%;
+      margin-right: 20vh;
+      top: 0;
+      left: 0;
+      padding: 0;
+      width: 20vh;
+      height: 100%;
+      margin-top: -27vh;
+  
+    
+    }
+    .page-card-restaurants { 
+      grid-area: page-card-restaurants;
+      position: relative;
+      left: -15vh;
+      margin-top: -27vh;
+  
+    
+    }
+  
+  
+  }
+  
+  
+  
+  @media (min-width: 651px) and (max-width: 862px){
+    .container-div-card{
+      display: grid;
+      grid-template-columns: repeat(2, 0.2fr);
+      grid-row-gap: 3em;
+      grid-column-gap: 4em;
+      position: absolute;
+    }
+    .card-rating-page { 
+      grid-area: card-rating-page; 
+      position: relative;
+      left: 5%;
+      margin-right: 20vh;
+      top: 0;
+      left: 0;
+      padding: 0;
+      width: 26vh;
+      height: 100%;
+      margin-top: -38vh;
+  
+    
+    }
+    .page-card-restaurants { 
+      grid-area: page-card-restaurants;
+      position: relative;
+      left: -25vh;
+      margin-top: -38vh;
+  
+    
+    }
+  
+  
+  }
+
+  @media (min-width: 863px) and (max-width: 1023px){
+    .container-div-card{
+      display: grid;
+      grid-template-columns: repeat(2, 0.2fr);
+      grid-row-gap: 3em;
+      grid-column-gap: 4em;
+      position: absolute;
+    }
+    .card-rating-page { 
+      grid-area: card-rating-page; 
+      position: relative;
+      left: 5%;
+      margin-right: 20vh;
+      top: 0;
+      left: 0;
+      padding: 0;
+      width: 26vh;
+      height: 100%;
+      margin-top: -38vh;
+  
+    
+    }
+    .page-card-restaurants { 
+      grid-area: page-card-restaurants;
+      position: relative;
+      left: -35vh;
+      margin-top: -38vh;
+  
+    
+    }
+  
+  
+  }
+
+  @media (min-width: 1024px) and (max-width: 1200px){
+    .page-card-restaurants { 
+      grid-area: page-card-restaurants;
+      position: relative;
+      left: -40vh;
+      margin-top: 10vh;
+  
+    
+    }
+  
+  
+  }
